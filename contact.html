@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tier One Trucking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/tieronetrucking/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/tieronetrucking/images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">APPLY</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Apply Now! </h1>
+    </section>
+
+<!-- contact us  -->
+ <section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.656549157592!2d-87.819280984899!3d41.70634947923613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e38536b313fd7%3A0xf5f26f3db4a262f4!2s10135%20S%20Roberts%20Rd%2C%20Palos%20Hills%2C%20IL%2060465!5e0!3m2!1sen!2sus!4v1630795189233!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+          <div class="contact-col">
+             <div>
+                <i class="fa fa-home"></i>
+                    <span>
+                        <h5> 10135 S Roberts Rd <br> Suite 206 </h5>
+                         <p> Palos Hills, IL 60465 </p>
+                     </span>
+               </div>
+        <div> 
+              <i class="fa fa-phone"></i>
+                <span>
+                <h5>Moody Shoaibi 708-945-3408 <br>
+                    Osahon Ogbomo 708-307-4907<br>
+                    Aaron Williams 312-848-9965</h5>
+                <p> Monday to Friday 6am to 5pm </p>
+                </span>
+        </div>
+        <div> 
+              <i class="fa fa-envelope-o"></i>
+                <span>
+                <h5> moodyshoaibi22@icloud.com </h5>
+                <p> Email us your application </p>
+                </span>
+        </div>
+        </div>
+
+        <div class="contact-col">
+            
+            <form actions="form-handler.php" method="POST">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="cdl" placeholder="How long have you had your CDL?" required>
+                <input type="text" name="vehicle" placeholder="Your mortar vehicle record on a scale of 1-10" required>
+                <input type="text" name="why" placeholder="If 6 and below, why?" required>
+                <input type="text" name="tickets" placeholder="Number of tickets recieved in the last two years" required>
+                <textarea rows="8" name="message" placeholder="Additonal Questions" required></textarea>
+                <button type="submit" class="hero-btn about-btn">Send Application </button>
+            </form>
+
+
+
+        </div>
+
+    </div>
+
+
+</section>
+<!-- Footer --> 
+
+<section class="footer">
+    <h4> About Us</h4>
+    <p> small <br> text</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!-- JavaScript for Toggle Menu -->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
