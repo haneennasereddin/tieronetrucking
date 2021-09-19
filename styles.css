@@ -6,11 +6,20 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(155, 170, 229, 0.07),rgba(155, 170, 229, 0.07)), url(/tieronetrucking/images/Screen\ Shot\ 2021-09-04\ at\ 6.14.12\ PM.png);
+    background-image: linear-gradient(rgba(155, 170, 229, 0.07),rgba(155, 170, 229, 0.07)), url(/tieronetrucking/images/background.png);
     background-position: center;
     background-size: cover;
     position: relative;
 }
+.text-box {
+    background-color: rgba(116, 112, 112, 0.4);
+    padding: 12px 34px;
+  }
+
+body {
+    background-color: lightgray;
+}
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -170,6 +179,7 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    background-color: rgb(113, 113, 114);
 }
 .services-col{
     flex-basis: 31%;
@@ -187,7 +197,7 @@ nav .fa{
 .services-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
-    text-align: left;
+    text-align: center;
 }
 /* testimonials */
 
@@ -196,6 +206,7 @@ nav .fa{
     margin: auto;
     padding-top: 100px;
     text-align: center;
+    background-color: white;
 }
 
 .testimonials-col{
@@ -203,7 +214,7 @@ nav .fa{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #1b7ced;
+    background: #748496;
     padding: 25px;
     cursor: pointer;
     display: flex ;
@@ -494,7 +505,7 @@ h3{
     margin: 10px 0;
 }
 .portfolio-col:hover{
-    box-shadow: 0 0 20px 0px rgb(43, 170, 140);
+    box-shadow: 0 0 20px 0px rgb(149, 153, 152);
 }
 @media(max-width: 700px){
     .row{
