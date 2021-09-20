@@ -155,12 +155,12 @@ nav .fa{
     transition: 0.5s;
 }
 .layer:hover{
-    background: rgba(226, 0, 0, 0.07);
+    background: rgba(78, 78, 78, 0.07);
 }
 .layer h3{
     width: 100%;
     font-weight: 500;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 26px;
     bottom: 0;
     left: 50%;
@@ -168,6 +168,7 @@ nav .fa{
     position: absolute;
     opacity: 0;
     transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 .layer:hover h3{
     bottom: 49%;
@@ -180,7 +181,7 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 100px;
-    background-color: rgb(113, 113, 114);
+    background-color: rgb(199, 199, 199);
 }
 .services-col{
     flex-basis: 31%;
