@@ -22,7 +22,7 @@ $email_body = "User Name: $name.\n".
 
 
 
-$to = 'moodyshoaibi22@icloud.com';
+$to = 'contact@tieronetruckingllc.com';
 
 $headers = "From: $email_form \r\n";
 

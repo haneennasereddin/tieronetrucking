@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(155, 170, 229, 0.07),rgba(155, 170, 229, 0.07)), url(/tieronetrucking/images/background.png);
+    background-image: linear-gradient(rgba(155, 170, 229, 0.07),rgba(155, 170, 229, 0.07)), url(/images/background.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -144,6 +144,12 @@ nav .fa{
 .about-col img{
     width: 100%;
     display: block;
+}
+
+.about p{
+    font-size: 20px;
+    padding: 30;
+    line-height: 1.5;
 }
 .layer{
     background: transparent;
@@ -296,7 +302,7 @@ nav .fa{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(/tieronetrucking/images/header.png);
+    background-image: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(/images/header.png);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -329,6 +335,7 @@ nav .fa{
 
 .about-col p{
     padding: 15px 0 25px;
+    font-size: 15px;
 }
 
 .about-btn{
@@ -423,6 +430,16 @@ nav .fa{
 
 .location iframe{
     width: 100%;
+}
+
+.benefits h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.benefits h4{
+    text-align: center;
+    padding-top: 30px;
 }
 
 .contact-us{
