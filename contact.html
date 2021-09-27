@@ -7,6 +7,7 @@
     <title>Tier One Trucking</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.js">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
@@ -43,7 +44,7 @@
 <section class="contact-us">
 
     <div class="row">
-          <div class="contact-col">
+          <div class="form-group">
              <div>
                 <i class="fa fa-home"></i>
                     <span>
@@ -69,27 +70,48 @@
         </div>
         </div>
 
-        <div class="contact-col">
+
+    <div class="form-group">
             
-            <form actions="form-handler.php" method="POST">
-                <input type="text" name="name" placeholder="Enter your name" required>
-                <input type="email" name="email" placeholder="Enter email address" required>
-                <input type="text" name="cdl" placeholder="How long have you had your CDL?" required>
-                <input type="text" name="vehicle" placeholder="Your mortar vehicle record on a scale of 1-10" required>
-                <input type="text" name="why" placeholder="If 6 and below, why?" required>
-                <input type="text" name="tickets" placeholder="Number of tickets recieved in the last two years" required>
-                <textarea rows="8" name="message" placeholder="Additonal Questions" required></textarea>
-                <button type="submit" class="hero-btn about-btn">Send Application </button>
-            </form>
-
-
-
+        
+        <div class="form-group">
+          <input type="text" placeholder="Name" id="Name" name="Name">
+        </div>
+  
+        <div class="form-group">
+          <input type="email" placeholder="Email" id="email" name="email">
         </div>
 
+        <div class="form-group">
+            <input type="text" placeholder="How long have you had your CDL?" id="CDL" name="CDL">
+        </div>
+
+        <div class="form-group">
+            <input type="text" placeholder="Your motar vehicle record on a scale of 1-10" id="Vehicle" name="Vehicle">
+        </div>
+
+        <div class="form-group">
+            <input type="text" placeholder="If 6 and below, why?" id="rating" name="rating">
+        </div>
+
+        <div class="form-group">
+            <input type="text" placeholder="Number of tickets recieved in the last two years." id="Tickets" name="Tickets">
+        </div>
+
+        <div class="form-group">
+          <textarea name="message" placeholder="Message" id="message" cols="30" rows="10"></textarea>
+        </div>
+  
+        <button type="submit" class="hero-btn about-btn">Send Application</button>
+      </form>
     </div>
+    <div id="status"></div>
+ </div>
+</div>
 
 
 </section>
+
 <!-- Footer --> 
 
 <section class="footer">
